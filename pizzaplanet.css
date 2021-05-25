@@ -1,0 +1,238 @@
+body {
+    background-color: #000;
+}
+
+p {
+    color: #ffffff;
+    font-family: sans-serif;
+    opacity: 0.8;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align:start;
+    border: 1px solid grey;
+    padding: 25px;
+    margin: 25px auto; 
+    width: 400px;
+    display: inline-block;
+}
+
+
+    h1 { 
+       font-family: impact;
+       color: #e88636;
+       text-shadow: #000;
+       text-align: center;
+       font-size: 60px;
+       margin: 0;
+       border: 1px inset rgb(14, 14, 14);
+       box-shadow: 5px 5px 12px rgba(25, 61, 75, 0.968);
+       background: linear-gradient(#436589, #0d1926);
+    }
+
+    h1:hover {
+        color:mediumseagreen; 
+       transition: all 300ms ease-in-out;
+    }
+
+    
+    h2 {
+        font-family: sans-serif;
+        color: rgb(162, 189, 219, 0.5);
+        opacity: 0.8;
+        text-transform: uppercase;
+        text-align: center;
+        padding: 40px 1px 1px 1px;
+    }
+
+    h2:hover {
+        color:rgb(34, 160, 91); 
+        transition: all 300ms ease-in-out;
+    }
+
+    img { 
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+    }
+ 
+    .left2 {
+    color: #ffffff;
+    font-family: sans-serif;
+    opacity: 0.8;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align:start;
+    padding: 25px;
+    margin: 25px auto; 
+    width: 500px;
+    border: 1px solid grey;
+    }
+    
+    
+     .cowboy {
+        color: rgba(111, 98, 73, 0.7);
+        font-style: italic;
+        font-weight: lighter;
+        text-transform: uppercase;
+        border: none;
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+        padding: 60px;
+        line-height: 30px;
+        font-size: 14px;
+    }
+
+    .cowboy:hover {
+        color:mediumseagreen; 
+        transition: all 200ms ease-in-out;
+    }
+
+    ul {
+        padding: 30px;
+    }
+
+
+    li {
+       
+        display: inline-block;
+        font-family: sans-serif;
+        color:  #bfd9f2;
+       }
+
+       li:hover {
+           color: white;
+       }
+
+    .key {
+        text-align: start;
+        line-height: 24px;
+        border: 10px inset rgb(5, 26, 40);
+        padding: 30px;
+        transition: all 400ms ease-in-out;
+        transform: rotate(315deg);
+        border-radius: 0 0 0 50px;
+        transform: rotate(315deg);
+        margin: 60px;
+        background: linear-gradient(#436589, #0d1926);
+    
+        
+    }
+
+    .key:hover {
+        cursor: help;
+        transform: rotate(360deg);
+        border-radius: 0;
+        transform: rotate(360deg);
+        border-bottom: none;
+        border-top: 15px outset #07273a;
+        border-right: 20px inset #091d2b; 
+    
+   
+      
+      
+    }
+
+
+    .left1 {
+    color: #ffffff;
+    font-family: sans-serif;
+    opacity: 0.8;
+    line-height: 20.5px;
+    font-size: 16px;
+    text-align:start;
+    border: 1px solid grey;
+    padding: 25px;
+    margin: 25px auto; 
+    width: 500px;
+    }
+    
+    a {
+        color: #e88636;
+        opacity: 0.9;
+        font-family: sans-serif;
+        font-size: 20px;
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+        padding: 20px;
+        text-decoration: none;
+ }
+
+ a:hover {
+     color: lime;
+     transform: all 200ms ease-in-out;
+     text-decoration: underline;
+ }
+
+ button {
+    display:block;
+    margin: 20px auto;
+    padding: 15px 40px;
+    border: 5px outset white; 
+    outline: none;
+   font-size: 20px;
+   background: black;
+   color: white;
+   transition: all 200ms ease-in-out;
+ }
+
+ button:hover {
+     opacity: 0.8;
+     cursor: pointer;
+     opacity: 0.3;
+     background: white;
+     color: rgb(0, 0, 0);
+     border-radius: 10%;
+ }
+    
+
+
+.container {
+    max-width: 600px; 
+    margin: 0 auto;
+    padding: 60px 60px;
+    display: block;
+}
+
+.spaceskate {
+display: block;
+border-radius: 900px 900px 900px 900px;
+transition: all 400ms ease-in-out;
+margin: 0 auto;
+text-align: center;
+border-radius: 60%;
+}
+
+.spaceskate:hover {
+    transform:rotate(25deg);
+}
+
+.lyrics {
+    border: none;
+    font-family: sans-serif;
+    color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+    margin: 0 auto;
+    display: block;
+    
+    
+}
+
+.pizzaplanet {
+    padding: 40px 1px;
+    border-radius: 60%;
+    transition: all 900ms ease-in-out;
+    filter: brightness(950%);
+    filter: saturate(50%);
+    filter: contrast(300%);
+}
+
+.pizzaplanet:hover {
+    transform: rotate(360deg)
+}
+
+strong {
+    font-size: 20px;
+}
